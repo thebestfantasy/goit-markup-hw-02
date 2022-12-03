@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+    font-family: inherit;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ---------header--------- */
+
+.header {
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    /* position: absolute;
+    width: 115px;
+    height: 24px;
+    margin: 24px 77px 24px 156px;   */
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.studio {
+    color: #2E2F42;
+ }
+
+ /* --------header_list------ */
+
+.header-list {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    margin-top: 24px;
+    margin-left: 348px; */
+}
+
+.header-link {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-address {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mail {
+    /* position: absolute;
+    width: 153px;
+    height: 24px; */
+    /* margin-top: 24px;
+    margin-left: 940px; */
+}
+
+.phone {
+    /*
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    margin-top: 24px;
+    margin-left: 1133px; */
+}
+
+ /* -------------HERO------------- */
+
+.hero {
+    background: #2E2F42;
+
+}
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.btn {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1875;
+    font-family: 'Roboto';
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* --------advantages------ */
+
+.advantages {
+
+}
+
+.adv_h3 {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.adv_p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* -----What are we doing------*/
+
+
+
+
+
