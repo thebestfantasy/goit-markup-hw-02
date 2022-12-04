@@ -36,7 +36,7 @@ body {
 
 
 .header-link {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -93,6 +93,7 @@ body {
     background: #4D5AE5;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn:focus {
@@ -165,7 +166,7 @@ body {
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
+    border-radius: 4px;    
 }
 
 .btn_portfolio:hover {
