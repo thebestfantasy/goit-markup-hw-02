@@ -53,7 +53,7 @@ body {
 }
 
 .header-link {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -96,7 +96,7 @@ body {
 
 }
 .hero-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
@@ -111,26 +111,28 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1875;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 
 /* --------advantages------ */
 
-.advantages {
+/* .advantages {
 
-}
+} */
 
-.adv_h3 {
-    font-family: 'Roboto' sans-serif;
+.h3_all {
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-}
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+ }
 
-.adv_p {
-    font-family: 'Roboto';
+.p_all {
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -140,7 +142,61 @@ body {
 
 /* -----What are we doing------*/
 
+.h2_all {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/* -----TEAM------*/
+
+/* -----FOOTER------*/
+
+.footer {
+    background: #2E2F42;
+}
+
+.studio-2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+}
+
+.footer_p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
 
 
+/* ---------------------PORTFOLIO -------------*/
 
+.btn_portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
 
+.btn_portfolio:hover {
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
