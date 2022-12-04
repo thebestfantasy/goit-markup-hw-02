@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    padding-left: 5px;
+    background: #FFFFFF;
+
 }
 
 .list {
     list-style: none;
-    font-family: inherit;
 }
 
 .link {
@@ -14,19 +15,13 @@ body {
 
 /* ---------header--------- */
 
-.header {
-}
-
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* position: absolute;
-    width: 115px;
-    height: 24px;
-    margin: 24px 77px 24px 156px;   */
 }
 
 .web {
@@ -39,22 +34,8 @@ body {
 
  /* --------header_list------ */
 
-.header-list {
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    margin-top: 24px;
-    margin-left: 348px; */
-}
 
 .header-link {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -62,9 +43,15 @@ body {
     color: #2E2F42;
 }
 
+.header-link:hover {
+    color: #434455;
+}
+
+.header-link:focus {
+    color: #4D5AE5;
+}
+
 .header-address {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -72,22 +59,10 @@ body {
     color: #434455;
 }
 
-.mail {
-    /* position: absolute;
-    width: 153px;
-    height: 24px; */
-    /* margin-top: 24px;
-    margin-left: 940px; */
+.header-address:hover {
+    color: #4D5AE5;
 }
 
-.phone {
-    /*
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    margin-top: 24px;
-    margin-left: 1133px; */
-}
 
  /* -------------HERO------------- */
 
@@ -96,7 +71,6 @@ body {
 
 }
 .hero-title {
-    font-family: 'Roboto',sans-serif;
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
@@ -111,19 +85,25 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.1875;
-    font-family: 'Roboto',sans-serif;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 
+.btn:hover {
+    background: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+
+.btn:focus {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
 /* --------advantages------ */
 
-/* .advantages {
-
-} */
-
 .h3_all {
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -132,7 +112,6 @@ body {
  }
 
 .p_all {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -143,8 +122,6 @@ body {
 /* -----What are we doing------*/
 
 .h2_all {
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -163,16 +140,14 @@ body {
 
 .studio-2 {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     color: #F4F4FD;
 }
 
 .footer_p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -184,8 +159,6 @@ body {
 /* ---------------------PORTFOLIO -------------*/
 
 .btn_portfolio {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -200,3 +173,4 @@ body {
     background: #4D5AE5;
     cursor: pointer;
 }
+
