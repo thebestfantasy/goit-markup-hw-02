@@ -1,12 +1,13 @@
 :root {
     --color-main: #2E2F42;
+    --font-main: 'Roboto', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     padding-left: 5px;
     background: #FFFFFF;
-
 }
 
 .list {
@@ -20,7 +21,7 @@ body {
 /* ---------header--------- */
 
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
@@ -33,7 +34,7 @@ body {
 }
 
 .studio {
-    color: #2E2F42;
+    color: var(--color-main);
  }
 
  /* --------header_list------ */
@@ -44,7 +45,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-main);
 }
 
 .header-link:hover {
@@ -132,7 +133,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-main);
 }
 
 /* -----TEAM------*/
