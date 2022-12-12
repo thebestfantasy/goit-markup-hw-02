@@ -309,14 +309,12 @@ body {
   cursor: pointer;
 }
 
-/* .section .nav {
-  padding-left: 0px;
-} */
-
 .section nav,
 .section ul {
   display: flex;
   width: 1158px;
+  padding-left: 12px;
+  
 }
 
 .section nav {
