@@ -309,8 +309,9 @@ body {
   cursor: pointer;
 }
 
-.section .container {
-}
+/* .section .nav {
+  padding-left: 0px;
+} */
 
 .section nav,
 .section ul {
