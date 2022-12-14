@@ -16,6 +16,7 @@
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 h1,
@@ -50,8 +51,7 @@ body {
 /* ---------header--------- */
 
 .header {
-  border-bottom: 0.5px solid --color-second-white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -181,6 +181,7 @@ body {
   display: flex;
   padding: 0px 15px;
   text-align: left;
+  margin: 0;
 }
 
 .title-cards {
@@ -229,6 +230,7 @@ body {
   display: flex;
   padding: 0px 15px;
   gap: 24px;
+  margin: 0;
 }
 
 /* -----TEAM------*/
@@ -237,7 +239,7 @@ body {
   background: var(--color-second-white);
 }
 
-.section .container {
+.team.section .container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -245,6 +247,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  margin: 0;
 }
 
 .team-item {
@@ -291,6 +294,13 @@ body {
 
 /* ---------------------PORTFOLIO -------------*/
 
+.section.portfolio .container {
+  width: 1158px;
+  padding-top: 96px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
 .btn_portfolio {
   font-weight: 600;
   font-size: 16px;
@@ -305,35 +315,24 @@ body {
 .btn_portfolio:hover {
   color: var(--color-main-white);
   background: var(--color-accent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
-.section nav,
-.section ul {
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin-top: 96px;
-  margin-bottom: 0;
-}
-
-.section nav {
-  margin: auto;
-}
-
 .filter-btn {
-  gap: 24px;
-  margin-left: auto;
-  border-color: transparent;
+  display: flex;
   justify-content: center;
+  margin: 0 auto 72px;
+  gap: 24px;
+  border-color: transparent;
+  padding: 0;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  margin-top: 72px;
-  outline: auto;
+  padding: 0 15px;
 }
 
 .portfolio-list-item {
@@ -342,7 +341,6 @@ body {
   margin-bottom: 48px;
   max-width: calc((100% - 48px) / 3);
   background: var(--color-main-white);
-  border-bottom: 0.5px solid --color-second-white;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -355,6 +353,12 @@ body {
 }
 
 .portfolio-item-text {
-  margin: 32px 16px;
+  padding: 32px 16px;
   text-align: left;
+  border: 0.5px solid --color-second-white;
+  border-top: transparent;
+}
+
+.title-cards {
+  padding-bottom: 8px;
 }
