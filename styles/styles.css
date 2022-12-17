@@ -17,6 +17,7 @@
 img {
   display: block;
   max-width: 100%;
+  align-items: center;
 }
 
 h1,
@@ -37,6 +38,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -46,12 +49,16 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* ---------header--------- */
 
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -61,13 +68,12 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 24px 0;
+  margin-right: 77px;
 }
 
 .header .container {
   display: flex;
   align-items: center;
-  padding: 0 15px;
 }
 
 .header nav,
@@ -87,7 +93,8 @@ body {
 /* --------header_list------ */
 
 .header-list {
-  padding-left: 77px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
 }
 
@@ -97,7 +104,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-main);
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover {
@@ -173,15 +181,14 @@ body {
 
 /* --------advantages------ */
 
-.advantages .container {
-  padding: 120px 0;
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advantages-list {
   display: flex;
-  padding: 0px 15px;
   text-align: left;
-  margin: 0;
 }
 
 .title-cards {
@@ -190,7 +197,7 @@ body {
   line-height: 1.2;
   color: var(--color-main);
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .content-cards {
@@ -211,7 +218,7 @@ body {
 
 /* -----What are we doing------*/
 
-.examples .container {
+.examples {
   padding-bottom: 120px;
 }
 
@@ -228,9 +235,8 @@ body {
 
 .examples-list {
   display: flex;
-  padding: 0px 15px;
+  align-items: center;
   gap: 24px;
-  margin: 0;
 }
 
 /* -----TEAM------*/
@@ -239,7 +245,7 @@ body {
   background: var(--color-second-white);
 }
 
-.team.section .container {
+.team.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -248,8 +254,6 @@ body {
   display: flex;
   gap: 24px;
   margin: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .team-item {
@@ -268,10 +272,8 @@ body {
 
 .footer {
   background: var(--color-main);
-}
-
-.footer .container {
-  padding: 100px 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .studio-2 {
@@ -309,11 +311,9 @@ body {
   overflow: hidden;
 }
 
-.section.portfolio .container {
-  width: 1158px;
+.section.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .btn_portfolio {
@@ -331,6 +331,7 @@ body {
   color: var(--color-main-white);
   background: var(--color-accent);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--color-accent);
   cursor: pointer;
 }
 
@@ -339,7 +340,7 @@ body {
   justify-content: center;
   margin: 0 auto 72px;
   gap: 24px;
-  border-color: transparent;
+  /* border-color: transparent; */
   padding: 0;
 }
 
@@ -347,7 +348,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding: 0 15px;
 }
 
 .portfolio-list-item {
@@ -370,10 +370,6 @@ body {
 .portfolio-item-text {
   padding: 32px 16px;
   text-align: left;
-  border: 0.5px solid --color-second-white;
+  border: 0.5px solid var(--color-second-white);
   border-top: transparent;
-}
-
-.title-cards {
-  padding-bottom: 8px;
 }
