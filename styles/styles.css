@@ -121,7 +121,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-grey);
   list-style: none;
-  padding: 24px 0;
 }
 
 .header-addr {
